@@ -44,7 +44,7 @@ def drawPoisson(size):
 
 
 def drawUniform(size):
-    fu = uniform(-np.sqrt(3), np.sqrt(3))
+    fu = uniform(-np.sqrt(3), 2 * np.sqrt(3))
     x = np.linspace(fu.ppf(0.01), fu.ppf(0.99), 1000)
     plt.plot(x, fu.pdf(x), 'k', lw=2)
 

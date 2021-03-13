@@ -28,9 +28,9 @@ distrs = [(norm(0, 1), 'Нормальное распределение'),
           (cauchy(0, 1), 'Распределение Коши'),
           (laplace(0, 1/np.sqrt(2)), 'Распределение Лапласа'),
           (poisson(10), 'Распределение Пуассона'),
-          (uniform(-np.sqrt(3), np.sqrt(3)), 'Равномерное распределение')]
+          (uniform(-np.sqrt(3), 2 * np.sqrt(3)), 'Равномерное распределение')]
 
-table = open("Tables.tex", 'w', encoding="utf-8")
+table = open("TablesLab2.tex", 'w', encoding="utf-8")
 for distr in distrs:
 
     table.writelines("\\begin{table}[h]\n"
