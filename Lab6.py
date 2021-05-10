@@ -47,7 +47,7 @@ l_1 = a_1 * x + b_1
 l_2 = a_2 * x + b_2
 fig, axis = plt.subplots()
 axis.scatter(x, y_1, color='k', facecolor='none', label='Выборка')
-axis.plot(x, y, 'r', label='$Модель$')
+axis.plot(x, y, 'r', label='Модель$')
 axis.plot(x, l_1, 'b', label='МНК')
 axis.plot(x, l_2, 'g', label='МНМ')
 axis.legend(loc='upper left')
@@ -62,7 +62,7 @@ l_1 = a_1 * x + b_1
 l_2 = a_2 * x + b_2
 fig, axis = plt.subplots()
 axis.scatter(x, y_2, color='k', facecolor='none', label='Выборка')
-axis.plot(x, y, 'r', label='$Модель$')
+axis.plot(x, y, 'r', label='Модель$')
 axis.plot(x, l_1, 'b', label='МНК')
 axis.plot(x, l_2, 'g', label='МНМ')
 axis.legend(loc='upper left')

@@ -6,7 +6,7 @@ class TableWriter:
 
     def begin(self, column_number):
         self.__column_number = column_number
-        preamble = "\\begin{table}[h]\n" + \
+        preamble = "\\begin{table}[H]\n" + \
                    "\\centering\n" + \
                    "\\begin{tabular}{ |" + "c|" * column_number + " }\n" + \
                    "\\hline \n"
