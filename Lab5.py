@@ -5,6 +5,7 @@ from TableWriter import TableWriter
 from matplotlib.patches import Ellipse
 import matplotlib.transforms as transforms
 
+
 def calc_pirson(selection):
     return stats.pearsonr(selection[:, 0], selection[:, 1])[0]
 
